@@ -40,7 +40,11 @@ function Login() {
         })
     }
     if (loading) {
-        return <Loading/>
+        return (
+            <div style={{ minHeight: '60vh', paddingTop:'5rem'}}>
+                <Loading />
+            </div>
+        )
     }
     return (
         <Wrapper className='section'>
