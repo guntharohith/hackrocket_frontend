@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { useProductContext } from '../../context/ProductContext'
 import Product from '../Product'
+import Loading from '../Loading'
 function FeaturedProducts() {
     const { products, loading } = useProductContext()
     if (loading) {
-        return <h1>Loading</h1>
+        return <Loading/>
     }
     else {
         return (
