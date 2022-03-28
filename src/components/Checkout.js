@@ -138,7 +138,7 @@ const Wrapper = styled.div`
     .modal{
         position: fixed;
         background: white;
-        width: 500px;
+        width: 300px;
         height: auto;
         top: 30%;
         left: 50%;

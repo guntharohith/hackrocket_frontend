@@ -65,6 +65,7 @@ function Login() {
                     <button>Sign In</button>
                 </form>
                 <p>Don’t have an account? <Link to='/signup' >Sign Up</Link></p>
+                <p>email : rohith@gmail.com, password : rohith</p>
                 {!loginSuccess && <p style={{color:"red",marginTop:"1rem"}}>Invalid credentials!</p>}
                 {/* <div className='social-login'>
                     <p>Sign In via socials</p>
